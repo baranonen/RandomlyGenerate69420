@@ -1,5 +1,4 @@
 from random import *
-import sys
 
 print("Randomly Generate 69420")
 print("(c) Baran Önen 2020")
@@ -8,15 +7,13 @@ print("To start, type y")
 
 answer = input()
 
-if answer != "y":
-    sys.exit()
+if answer == "y":
+    trialnumber = 0
+    number = 0
 
-trialnumber = 0
-number = 0
+    while number != 69420:
+        number = randint(9999, 100000)
+        print(number)
+        trialnumber = trialnumber + 1
 
-while number != 69420:
-    number = randint(9999, 100000)
-    print(number)
-    trialnumber = trialnumber + 1
-
-print("Done in " + str(trialnumber) + " tries")
+    print("Done in " + str(trialnumber) + " tries")

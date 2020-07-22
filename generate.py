@@ -1,7 +1,6 @@
 from random import randint
 
 print("Randomly Generate 69420")
-print("(c) Baran Önen 2020")
 print("This program will generate random 5-digit numbers until it generates 69420")
 
 

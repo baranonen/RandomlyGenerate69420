@@ -12,7 +12,7 @@ if answer == "y":
     number = 0
 
     while number != 69420:
-        number = randint(9999, 100000)
+        number = randint(10000, 99999)
         print(number)
         trialnumber = trialnumber + 1
 
